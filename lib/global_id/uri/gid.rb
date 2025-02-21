@@ -173,5 +173,6 @@ module URI
       end
   end
 
+  @@schemes ||= Hash.new
   @@schemes['GID'] = GID
 end
